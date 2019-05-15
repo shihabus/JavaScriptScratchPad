@@ -11,6 +11,7 @@ let cat={
 // here cat
 let fluffykin=Object.create(cat);
 fluffykin.sound='Meoow'
+// fluffykin.init('Meow')===fluffykin.sound='Meoow'
 fluffykin.makeSound()
 console.log(`Is cat is prototype of fluffykin 
 ${cat.isPrototypeOf(fluffykin)}`)
