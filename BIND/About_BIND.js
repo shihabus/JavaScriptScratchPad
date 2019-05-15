@@ -7,13 +7,13 @@ let dog = {
 
 dog.talk(); // woof
 
+let talkFunction = dog.talk;
 // Here the dog.talk is no more a method of Object dog
 // It is just a function and now totally disconnected from Object dog
 // So it is now similar to:
     // let talkFunction = function(){
     //     console.log(this.sound);
     // }
-let talkFunction = dog.talk;
 talkFunction() // undefined 
 
 // To enforce 'this' keyword to bind to Object dog
