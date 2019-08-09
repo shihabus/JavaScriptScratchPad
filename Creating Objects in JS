@@ -1,27 +1,27 @@
 # CREATING OBJECTS IN JS
 
 1. Using Object Literal
-	```javascript
-var apple={
-	name: 'Apple',
-	color: 'Red',
-	native: [ 'US', 'Australia', 'Canada '],
-	nativeTo: ()=>{
-		native.map(country=>{
-			console.log(`${name} is native to ${country}`)
-		})
+	```
+	var apple={
+		name: 'Apple',
+		color: 'Red',
+		native: [ 'US', 'Australia', 'Canada '],
+		nativeTo: ()=>{
+			native.map(country=>{
+				console.log(`${name} is native to ${country}`)
+			})
+		}
 	}
-}
-```
+	```
 2. Using Object Constructor
-	```javascript
-var apple=new Object();
-apple.name= 'Apple';
-apple.color= 'Red';
-apple.native= [ 'US', 'Australia', 'Canada' ];
-apple.nativeTo= function(){
-	apple.native.map(country=>{
-		console.log(`${apple.name} is native to ${country}`)
-	})
-};
-```
+	```
+	var apple=new Object();
+	apple.name= 'Apple';
+	apple.color= 'Red';
+	apple.native= [ 'US', 'Australia', 'Canada' ];
+	apple.nativeTo= function(){
+		apple.native.map(country=>{
+			console.log(`${apple.name} is native to ${country}`)
+		})
+	};
+	```
