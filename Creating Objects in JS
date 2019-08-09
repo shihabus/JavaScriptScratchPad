@@ -1,7 +1,7 @@
 # CREATING OBJECTS IN JS
 
 1. Using Object Literal
-	```
+	
 	var apple={
 		name: 'Apple',
 		color: 'Red',
@@ -12,9 +12,9 @@
 			})
 		}
 	}
-	```
+	
 2. Using Object Constructor
-	```
+	
 	var apple=new Object();
 	apple.name= 'Apple';
 	apple.color= 'Red';
@@ -24,4 +24,4 @@
 			console.log(`${apple.name} is native to ${country}`)
 		})
 	};
-	```
+	
