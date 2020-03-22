@@ -50,4 +50,52 @@ string+string=string
 ```3.04=='3.040000'``` true
 ```3.04==='3.040000'``` flase
 
+# Scope
+
+https://playcode.io/520405
+ 
+Scope is wehere to look for things.
+
+
+```
+var teacher='Shihab';
+
+function mutateInfo(){
+  teacher='Abbe';
+  tech='React';
+  level='Inter';
+ }
+ 
+console.log(teacher); //Shihab
+console.log(tech); //undefined
+console.log(level); //undefined
+ 
+mutateInfo();
+console.log(teacher); //Shihab
+console.log(tech); //React
+console.log(level); //undefined
+ 
+ ````
+ 
+ variable that are never declared (undeclared), and decalred but uninitialized(undefined) are
+ both ```undefined``` in JS.
+ 
+ 
+ # Closure
+ 
+ A function remembering a variable defined outside it's execution context.
+ 
+ https://playcode.io/520521
+ 
+
+
+
+
+
+
+
+
+
+
+
 
