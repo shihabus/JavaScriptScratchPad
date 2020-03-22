@@ -1,0 +1,31 @@
+# Types in JS
+
+## Primitive Types
+
+These are the basic noes of which all other types are build on
+
+- Number
+- undefined
+- null, but ```typeof null``` is ```Object``` 
+- String
+- Symbol
+- Boolean
+- bigInt, new one
+
+## Composite Types
+
+- Function
+- Object 
+- Array, ```typeof Array``` is ```Object```
+
+### NaN **Not A Number**
+If the result of a Mathematical operation is not a number then the result will have a type of **NaN**
+
+```
+var name='Shihab';
+var result=name/2;
+console.log(typeof result); //NaN
+
+Number.isNaN(name);  //false
+Number.isNaN(result); //true
+```
